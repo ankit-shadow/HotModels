@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "230852756555",
+    "firebase_url": "https://hot-models-3d9d3.firebaseio.com",
+    "project_id": "hot-models-3d9d3",
+    "storage_bucket": "hot-models-3d9d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230852756555:android:d0fab23330c22f519939ce",
+        "android_client_info": {
+          "package_name": "com.neyena.hotmodels"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230852756555-5e5gf3b9qao305l4ss792qaf0bh3l3h6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neyena.hotmodels",
+            "certificate_hash": "dfae9b8d64cd0485910f0cbbbc4fe932d0ec54bf"
+          }
+        },
+        {
+          "client_id": "230852756555-14c3nh2o84oi4hp84am9bpgrtntet0t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm8OMVhQ9AGSgVgVqPJxh--AKegzSH6_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230852756555-14c3nh2o84oi4hp84am9bpgrtntet0t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

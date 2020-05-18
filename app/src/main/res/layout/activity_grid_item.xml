@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridItemActivity">
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9074936455077550/1614777889"
+        tools:ignore="MissingConstraints">
+    </com.google.android.gms.ads.AdView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+         <TextView
+                android:id="@+id/god_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Apple"
+                android:textColor="#fff"
+                android:padding="16dp"
+                android:textAlignment="center"
+                android:background="@color/colorAccent"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <ImageView
+                android:id="@+id/god_image"
+                android:layout_marginTop="-20dp"
+                android:layout_width="match_parent"
+                android:layout_height="640dp"
+                android:layout_below="@+id/god_names"
+                android:layout_centerHorizontal="true"
+                android:src="@raw/sunny"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/tvLink"
+                android:padding="16dp"
+                android:layout_marginTop="-20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000"
+                android:layout_below="@+id/god_image"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:text="Watch Videos"
+                android:autoLink="all"
+                tools:ignore="HardcodedText" />
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
